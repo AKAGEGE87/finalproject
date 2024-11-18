@@ -1,0 +1,42 @@
+/* 480 - 320 */
+@import url(./variables.css);
+@media screen and (max-width: 321px) {
+  header {
+    padding: 16px 8px;
+  }
+
+  /* section2 */
+  .section2 {
+    padding: 48px 0 48px 8px;
+  }
+
+  .section2_h {
+    font-size: var(--font-size-24);
+    line-height: var(--line-height-32);
+  }
+
+  /* footer */
+  footer {
+    padding: 30px 43px;
+  }
+
+  /* artworks */
+
+  .contact_section1 {
+    height: 808px;
+  }
+
+  .input_box {
+    row-gap: 24px;
+  }
+  .form_box_h {
+    font-size: var(--font-size-24);
+    line-height: var(--line-height-32);
+  }
+  .contact_form {
+    row-gap: 24px;
+  }
+  .input_box {
+    row-gap: 24px;
+  }
+}
