@@ -35,7 +35,7 @@
 
   /* footer */
   footer {
-    padding: 80px 255px;
+    /* padding: 80px 255px; */
     flex-direction: column;
     align-items: center;
     row-gap: 32px;
