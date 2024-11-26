@@ -6,12 +6,29 @@
   }
 
   .header_nav {
-    display: none;
+    position: fixed;
+    top: 95.4px;
+    left: -100%;
+    background-color: var(--color3);
+    width: 240px;
+    height: 260px;
+    padding: 34px 34px;
+    transition: .4s linear;
   }
+
+  
+  .header-ul {
+  flex-direction: column;
+  row-gap: 24px;
+  }
+
   .burger,
   .isari {
-    display: flex;
+    display: block;
   }
+
+ 
+
   .header_log {
     column-gap: 8px;
   }

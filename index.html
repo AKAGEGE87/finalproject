@@ -22,8 +22,8 @@
   <body>
     <div class="conteiner">
       <header>
-        <img src="./image/menu-hamburger.svg" alt="" class="burger" />
-        <img src="./image/X.svg" alt="" class="x" />
+        <img src="./image/menu-hamburger.svg" alt="image" class="burger" />
+        <img src="./image/X.svg" alt="image" class="x" />
         <nav class="header_nav">
           <ul class="header-ul">
             <li class="header_li">
@@ -38,21 +38,33 @@
           </ul>
         </nav>
         <a href="./index.html">
-          <h2 class="header_h">
+          <span class="header_h">
             Earthly<span class="header_span">Artisry</span>
-          </h2>
+          </span>
         </a>
         <div class="header_log">
-          <p class="header_p">Sign In</p>
-          <img src="./image/signin.svg" alt="" class="isari" />
-          <img src="./image/cart-header.svg" alt="" />
+          <a href="">
+            <p class="header_p">Sign In</p>
+          </a>
+          <a href="">
+            <img src="./image/signin.svg" alt="image" class="isari" />
+          </a>
+          <a href="">
+            <img
+              src="./image/cart-header.svg"
+              alt="image"
+              class="header_cart"
+            />
+          </a>
         </div>
       </header>
       <!-- section1 -->
       <section class="section1">
         <article class="section1_article">
           <h2 class="section1_article_h">Earth, Water, Air and Fire</h2>
-          <button class="section1_article_bt">Shop Now</button>
+          <a href="">
+            <button class="section1_article_bt">Shop Now</button>
+          </a>
         </article>
       </section>
 
@@ -61,7 +73,9 @@
         <h3 class="section2_h">Latest Products</h3>
         <div class="section2_box">
           <div class="card card1">
-            <img src="./image/1.png" alt="" class="card_img" />
+            <div class="image_box">
+              <img src="./image/1.png" alt="image" class="card_img" />
+            </div>
             <h4 class="card_h">product title</h4>
             <div class="price">
               <span class="price_p">$48.57</span>
@@ -69,7 +83,9 @@
             </div>
           </div>
           <div class="card card2">
-            <img src="./image/2.png" alt="" class="card_img" />
+            <div class="image_box">
+              <img src="./image/2.png" alt="image" class="card_img" />
+            </div>
             <h4 class="card_h">product title</h4>
             <div class="price">
               <span class="price_p">$48.57</span>
@@ -77,7 +93,9 @@
             </div>
           </div>
           <div class="card card3">
-            <img src="./image/3.png" alt="" class="card_img" />
+            <div class="image_box">
+              <img src="./image/3.png" alt="image" class="card_img" />
+            </div>
             <h4 class="card_h">product title</h4>
             <div class="price">
               <span class="price_p">$48.57</span>
@@ -85,7 +103,9 @@
             </div>
           </div>
           <div class="card card4">
-            <img src="./image/4.png" alt="" class="card_img" />
+            <div class="image_box">
+              <img src="./image/4.png" alt="image" class="card_img" />
+            </div>
             <h4 class="card_h">product title</h4>
             <div class="price">
               <span class="price_p">$48.57</span>
@@ -126,23 +146,23 @@
           </section>
         </section>
         <a href="./index.html">
-          <h2 class="footer_h">
+          <span class="footer_h">
             Earthly<span class="footer_span">Artisry</span>
-          </h2>
+          </span>
         </a>
-        <section class="contact_footer">
-          <article class="article_footer">
-            <p class="tel">
+        <nav class="contact_footer">
+          <ul class="article_footer">
+            <li class="tel">
               <a href="tel:  +123 45 67  89" class="telg">
                 <img src="./image/call.svg" alt="call" /> </a
               ><span class="hidden"> +123 45 67 89 </span>
-            </p>
-            <p class="mail">
+            </li>
+            <li class="mail">
               <a href="mailto:example@mail.com" target="_blank" class="mailg">
                 <img src="./image/email.svg" alt="email" /> </a
               ><span class="hidden"> example@mail.com </span>
-            </p>
-            <p class="address">
+            </li>
+            <li class="address">
               <a
                 href="https://maps.app.goo.gl/FChFJyWhLP4HqNQx6"
                 target="_blank"
@@ -150,10 +170,11 @@
               >
                 <img src="./image/adrress.svg" alt="addrress" /> </a
               ><span class="hidden"> Rustaveli avenue, 30 </span>
-            </p>
-          </article>
-        </section>
+            </li>
+          </ul>
+        </nav>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
